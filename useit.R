@@ -29,3 +29,5 @@ svgPlease <- function(x,y,z,titre) {
   plot(x)
   dev.off()
 }
+
+framboiseGradiant <- c("#FFDFD6", "#FDCCC7", "#FFA7A3", "#FE8E8D", "#F76566", "#E75059", "#E1414D", "#D12030", "#D0222C", "#C00E28", "#8B131C", "#591E1A", "#461916", "#3A1816", "#1B1B1B")
