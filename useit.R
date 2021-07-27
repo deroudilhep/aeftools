@@ -11,7 +11,7 @@ communes <- function() {
 }
 
 deps <- function() {
-  deps <- sf::st_read("C:/Users/pierr/Documents/JOURNALISME/APPELS_CARTES_R/ADMIN-EXPRESS/1_DONNEES_LIVRAISON_2021-03-29/ADE_2-5_SHP_LAMB93_FR/DEPARTEMENT.shp")
+  deps <- sf::st_read("C:/Users/pierr/Documents/JOURNALISME/APPEL_CARTES_R/ADMIN-EXPRESS/1_DONNEES_LIVRAISON_2021-03-29/ADE_2-5_SHP_LAMB93_FR/DEPARTEMENT.shp")
 }
 
 paris <- function() {
