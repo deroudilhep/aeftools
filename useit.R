@@ -2,7 +2,7 @@ packages <- c("tidyverse", "readr", "readxl", "sf",
               "cowplot", "RColorBrewer", "lubridate",
               "data.table","datapasta","devtools","forcats",
               "geofacet","gghighlight","janitor","hexbin",
-              "rmapshaper","scales","svglite","extrafont","slider", "units")
+              "rmapshaper","scales","svglite","extrafont","slider", "units", "udunits2")
 
 lapply(packages, library, character.only = TRUE)
 
