@@ -2,6 +2,8 @@ packages <- c("tidyverse", "readr", "readxl", "sf", "cowplot", "RColorBrewer", "
 
 extrafont::loadfonts()
 
+`%!in%` = function(x,y) !(x %in% y)
+
 lapply(packages, library, character.only = TRUE)
 
 communes <- function() {
