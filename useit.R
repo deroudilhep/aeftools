@@ -31,3 +31,5 @@ svgPlease <- function(x,y,z,titre) {
 }
 
 framboiseGradiant <- c("#FFDFD6", "#FDCCC7", "#FFA7A3", "#FE8E8D", "#F76566", "#E75059", "#E1414D", "#D12030", "#D0222C", "#C00E28", "#8B131C", "#591E1A", "#461916", "#3A1816", "#1B1B1B")
+
+myrtilleGradiant <- c("#E1E2E6", "#D7DADF", "#CAD0DC", "#BFC7DA", "#A7B8D6", "#8CA8D0", "#6F96CF", "#6388CF", "#3E6DC9", "#0355C5", "#0243BB", "#033EBC", "#003E9D", "#153D78", "#1C1C1C")
