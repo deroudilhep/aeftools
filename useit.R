@@ -1,8 +1,6 @@
-packages <- c("tidyverse", "readr", "readxl", "sf",
-              "cowplot", "RColorBrewer", "lubridate",
-              "data.table","datapasta","devtools","forcats",
-              "geofacet","gghighlight","janitor","hexbin",
-              "rmapshaper","scales","svglite","extrafont","slider", "units", "udunits2")
+packages <- c("tidyverse", "readr", "readxl", "sf", "cowplot", "RColorBrewer", "lubridate", "data.table","datapasta","devtools","forcats", "geofacet","gghighlight","janitor","hexbin", "rmapshaper","scales","svglite","extrafont","slider", "units", "udunits2")
+
+extrafont::loadfonts()
 
 lapply(packages, library, character.only = TRUE)
 
