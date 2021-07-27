@@ -17,3 +17,15 @@ deps <- function() {
 paris <- function() {
   paris <- sf::st_read("https://raw.githubusercontent.com/deroudilhep/data/main/arrondissements-paris.geojson")
 }
+
+jpegPlease <- function(x,y,z,titre) {
+  jpeg(filename = paste0(titre,".jpg"), width = y, height = z, quality = 100, units  = "px",type = "cairo")
+  plot(x)
+  dev.off()
+}
+
+svgPlease <- function(x,y,z,titre) {
+  svglite::svglite(file = paste0(titre,".svg"),width = y,height = z,bg = "white",standalone = T)
+  plot(x)
+  dev.off()
+}
