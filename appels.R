@@ -7,11 +7,11 @@ packages <- c("tidyverse", "readr", "readxl", "sf",
 lapply(packages, library, character.only = TRUE)
 
 communes <- function() {
-  communes <- sf::st_read("C:/Users/pierr/Documents/JOURNALISME/APPELS CARTES R/ADMIN-EXPRESS/1_DONNEES_LIVRAISON_2021-03-29/ADE_2-5_SHP_LAMB93_FR/COMMUNE.shp")
+  communes <- sf::st_read("C:/Users/pierr/Documents/JOURNALISME/APPELS_CARTES_R/ADMIN-EXPRESS/1_DONNEES_LIVRAISON_2021-03-29/ADE_2-5_SHP_LAMB93_FR/COMMUNE.shp")
 }
 
 deps <- function() {
-  deps <- sf::st_read("C:/Users/pierr/Documents/JOURNALISME/APPELS CARTES R/ADMIN-EXPRESS/1_DONNEES_LIVRAISON_2021-03-29/ADE_2-5_SHP_LAMB93_FR/DEPARTEMENT.SHP")
+  deps <- sf::st_read("C:/Users/pierr/Documents/JOURNALISME/APPELS_CARTES_R/ADMIN-EXPRESS/1_DONNEES_LIVRAISON_2021-03-29/ADE_2-5_SHP_LAMB93_FR/DEPARTEMENT.SHP")
 }
 
 paris <- function() {
