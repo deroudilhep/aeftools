@@ -1,4 +1,5 @@
 packages <- c("tidyverse", "readr", "readxl", "lubridate", "devtools")
+library(packages)
 make_names <- function(names) {
   names <- names %>%
     str_trim() %>%
