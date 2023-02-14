@@ -1,4 +1,4 @@
-packages <- c("tidyverse", "readr", "readxl", "lubridate", "devtools")
+packages <- c("tidyverse", "readr", "readxl", "lubridate", "devtools", "janitor")
 library(packages)
 make_names <- function(names) {
   names <- names %>%
