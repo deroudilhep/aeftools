@@ -1,6 +1,6 @@
 # packages
 if(!require(pacman)) install.packages("pacman")
-pacman::p_load("tidyverse", "devtools", "janitor", "svglite", "extrafont", "hrbrthemes", "mdthemes")
+pacman::p_load("tidyverse", "devtools", "janitor", "jsonlite", "svglite", "extrafont", "hrbrthemes", "mdthemes")
 
 # couleurs AEF
 identitaires_principales <- c("#e4032d", "#000000")
