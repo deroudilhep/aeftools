@@ -1,6 +1,6 @@
 # Packages
 if(!require(pacman)) install.packages("pacman")
-pacman::p_load("tidyverse", "devtools", "janitor", "jsonlite")
+pacman::p_load("tidyverse", "devtools", "janitor", "jsonlite", "devtools", "roxygen2", "testthat")
 
 # French News Agency AEF info Color Palette
 main <- c("#e4032d", "#000000")
