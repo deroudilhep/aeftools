@@ -1,6 +1,6 @@
 # Packages
 if(!require(pacman)) install.packages("pacman")
-pacman::p_load("tidyverse", "devtools", "janitor", "extrafont", "knitr", "jsonlite", "devtools", "roxygen2", "testthat")
+pacman::p_load("tidyverse", "janitor", "extrafont", "knitr", "jsonlite", "devtools", "roxygen2", "testthat")
 
 # French News Agency AEF info Color Palette
 main <- c("#e4032d", "#000000")
@@ -17,8 +17,8 @@ divergent <- c("#e4032d", "#ff6261", "#87aee1", "#154975")
 big_palette <- c("#e4032d", "#ff5e5e", "#ff9d92", "#bf777f", "#794d52", "#492228", "#a93900", "#fe7f2d", "#fcca46", "#9cb557", "#579c87", "#0b7879", "#0e3d59", "#6186a6", "#a8cdf0", "#59536d", "#9174a2", "#ff88b3", "#ab3b69", "#650030")
 
 # Functions
-# Export Any Graph Under Three Formats
-export_graph <- function(graph) {
+# Export Any Chart Under Three Formats
+export_chart <- function(graph) {
     library(ggplot2)
     ggsave(file = paste(deparse(substitute(graph)), ".svg", sep = ""), plot = graph, width = 10, height = 8)
     ggsave(file = paste(deparse(substitute(graph)), ".png", sep = ""), plot = graph, width = 10, height = 8)
