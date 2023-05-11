@@ -1,3 +1,3 @@
 # Packages
 if(!require(pacman)) install.packages("pacman")
-pacman::p_load("tidyverse", "rvest", "RSelenium", "DescTools", "janitor", "extrafont", "knitr", "jsonlite", "devtools", "roxygen2", "testthat", "aefplot")
+pacman::p_load("tidyverse", "rvest", "RSelenium", "wdman", "netstat", "DescTools", "janitor", "extrafont", "knitr", "jsonlite", "devtools", "roxygen2", "testthat", "aefplot")
